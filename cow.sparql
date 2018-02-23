@@ -1,0 +1,6 @@
+#+ summary: Gets 10 random triples in own dataset
+#+ endpoint: https://druid.datalegend.net/timelessfuture/cow-dataset/services/cow-dataset
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+LIMIT 10
