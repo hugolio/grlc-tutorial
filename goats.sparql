@@ -1,5 +1,5 @@
-+#+ summary: Gets goats from wikidata
-+#+ endpoint: https://query.wikidata.org/sparql
+#+ summary: Gets goats from wikidata
+#+ endpoint: https://query.wikidata.org/sparql
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX wikibase: <http://wikiba.se/ontology#>
