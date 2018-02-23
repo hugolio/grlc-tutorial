@@ -1,0 +1,6 @@
+#+ summary: Gets 10 random triples in Wikidata
+#+ endpoint: https://query.wikidata.org/sparql
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+LIMIT 10
